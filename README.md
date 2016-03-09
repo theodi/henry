@@ -1,3 +1,11 @@
+[![Build Status](http://img.shields.io/travis/theodi/henry.svg)](https://travis-ci.org/theodi/henry)
+[![Dependency Status](http://img.shields.io/gemnasium/theodi/henry.svg)](https://gemnasium.com/theodi/henry)
+[![Coverage Status](http://img.shields.io/coveralls/theodi/henry.svg)](https://coveralls.io/r/theodi/henry)
+[![Code Climate](http://img.shields.io/codeclimate/github/theodi/henry.svg)](https://codeclimate.com/github/theodi/henry)
+[![Gem Version](http://img.shields.io/gem/v/henry.svg)](https://rubygems.org/gems/henry)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
+[![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
+
 # Henry
 
 We all like continuous deployment, but when it comes to publishing Ruby gems, crafting a new version can become
@@ -24,7 +32,7 @@ new gem version again.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/henry. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/theodi/henry. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
