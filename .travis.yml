@@ -14,3 +14,6 @@ deploy:
   on:
     tags: true
     repo: theodi/henry
+after_success:
+- gem install henry
+- henry deploy
