@@ -1,41 +1,31 @@
 # Henry
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/henry`. To experiment with that code, run `bin/console` for an interactive prompt.
+We all like continuous deployment, but when it comes to publishing Ruby gems, crafting a new version can become
+a royal pain. Travis's Rubygems integration makes things easier, but you still have to push a new tag and write a
+changelog, and who has time for that?
 
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'henry'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install henry
+Henry makes things really easy, as per [Github flow](https://guides.github.com/introduction/flow/), master is always considered deployable. As soon as the version number is changed and everything is pushed to Travis, once the tests pass (and they will, won't they?), Henry will push a new tag and an automatically generated Changelog (via the magic of [github-changelog-generator](https://github.com/skywinder/github-changelog-generator)). Assuming you have Travis set up
+with Rubygems integration, it will then build the latest tag, and publish it directly to Rubygems. Easy huh?
 
 ## Usage
 
-TODO: Write usage instructions here
+In your project directory, first run `gem install travis` and `travis setup rubygems` and follow the onscreen prompts.
 
-## Development
+Then add the following to your `.travis.yml`
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```
+after_success:
+- gem install henry
+- henry deploy
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Then push up your changes, and sit back and relax, safe in the knowledge that you'll never forget to push a
+new gem version again.
 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/henry. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
