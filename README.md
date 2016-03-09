@@ -19,6 +19,14 @@ with Rubygems integration, it will then build the latest tag, and publish it dir
 
 In your project directory, first run `gem install travis` and `travis setup rubygems` and follow the onscreen prompts.
 
+Then run the following:
+
+```
+travis encrypt GITHUB_OUATH_TOKEN=SUPER_SECRET_TOKEN --add
+```
+
+Where `SUPER_SECRET_TOKEN` is your Github Token, which you can generate [here](https://github.com/settings/tokens/new?description=Henry%20Token)
+
 Then add the following to your `.travis.yml`
 
 ```
