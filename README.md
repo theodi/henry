@@ -17,23 +17,7 @@ with Rubygems integration, it will then build the latest tag, and publish it dir
 
 ## Usage
 
-In your project directory, first run `gem install travis` and `travis setup rubygems` and follow the onscreen prompts.
-
-Then run the following:
-
-```
-travis encrypt GITHUB_OUATH_TOKEN=SUPER_SECRET_TOKEN --add
-```
-
-Where `SUPER_SECRET_TOKEN` is your Github Token, which you can generate [here](https://github.com/settings/tokens/new?description=Henry%20Token)
-
-Then add the following to your `.travis.yml`
-
-```
-after_success:
-- gem install henry
-- henry deploy
-```
+In your project directory, first run `gem install henry` and `henry bootstrap` and follow the onscreen prompts.
 
 Then push up your changes, and sit back and relax, safe in the knowledge that you'll never forget to push a
 new gem version again.
