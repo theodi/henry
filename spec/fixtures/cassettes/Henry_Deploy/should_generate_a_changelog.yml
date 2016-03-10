@@ -27,7 +27,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:31 GMT
+      - Thu, 10 Mar 2016 10:47:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -37,9 +37,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4746'
+      - '4977'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -71,14 +71,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 593010132f82159af0ded24b4932e109
+      - 173530fed4bbeb1e264b2ed22e8b5c20
       X-Github-Request-Id:
-      - 56A82ED1:10E9E:6C4D943:56E04773
+      - 3EFEF783:10E9A:2748BBF:56E150AD
     body:
       encoding: UTF-8
       string: '{"ref":"refs/tags/9.1.7","url":"https://api.github.com/repos/theodi/useless-gem/git/refs/tags/9.1.7","object":{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","type":"commit","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490"}}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:31 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:10 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/tags?access_token=<GITHUB_OUATH_TOKEN>
@@ -104,7 +104,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:32 GMT
+      - Thu, 10 Mar 2016 10:47:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -114,9 +114,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4745'
+      - '4976'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -148,14 +148,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - cee4c0729c8e9147e7abcb45b9d69689
+      - a241e1a8264a6ace03db946c85b92db3
       X-Github-Request-Id:
-      - 56A82ED1:10E9B:2DB3D3E:56E04773
+      - 3EFEF783:10E99:1F08716:56E150AE
     body:
       encoding: UTF-8
       string: '[{"name":"9.1.7","zipball_url":"https://api.github.com/repos/theodi/useless-gem/zipball/9.1.7","tarball_url":"https://api.github.com/repos/theodi/useless-gem/tarball/9.1.7","commit":{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","url":"https://api.github.com/repos/theodi/useless-gem/commits/5c0f9870359e7a290ced48836ec4edde3c536490"}}]'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:32 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:10 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490?access_token=<GITHUB_OUATH_TOKEN>
@@ -181,7 +181,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:32 GMT
+      - Thu, 10 Mar 2016 10:47:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -191,9 +191,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4744'
+      - '4975'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -225,15 +225,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - a241e1a8264a6ace03db946c85b92db3
+      - 7b641bda7ec2ca7cd9df72d2578baf75
       X-Github-Request-Id:
-      - 56A82ED1:10E9C:3EF10B4:56E04774
+      - 3EFEF783:10E9F:92AE631:56E150AE
     body:
       encoding: UTF-8
       string: '{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490","html_url":"https://github.com/theodi/useless-gem/commit/5c0f9870359e7a290ced48836ec4edde3c536490","author":{"name":"pezholio","email":"pezholio@gmail.com","date":"2016-03-09T14:48:24Z"},"committer":{"name":"pezholio","email":"pezholio@gmail.com","date":"2016-03-09T14:48:24Z"},"tree":{"sha":"fe036e87bc91649147f7b0c29aa3ab5e0d5d2720","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/fe036e87bc91649147f7b0c29aa3ab5e0d5d2720"},"message":"Version
         TO THE EXTREME","parents":[{"sha":"a5a5143d6536f1bb56016ce93bf34855b088aed9","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/a5a5143d6536f1bb56016ce93bf34855b088aed9","html_url":"https://github.com/theodi/useless-gem/commit/a5a5143d6536f1bb56016ce93bf34855b088aed9"}]}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:32 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:10 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/issues?access_token=<GITHUB_OUATH_TOKEN>&filter=all&labels&state=closed
@@ -259,7 +259,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:33 GMT
+      - Thu, 10 Mar 2016 10:47:11 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -269,9 +269,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4743'
+      - '4974'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -303,12 +303,87 @@ http_interactions:
       X-Served-By:
       - 13d09b732ebe76f892093130dc088652
       X-Github-Request-Id:
-      - 56A82ED1:10E9C:3EF1117:56E04774
+      - 3EFEF783:10E9B:35BF036:56E150AE
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:33 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:11 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/theodi/useless-gem/pulls?access_token=<GITHUB_OUATH_TOKEN>&state=closed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json,application/vnd.github.beta+json;q=0.5,application/json;q=0.1
+      Accept-Charset:
+      - utf-8
+      User-Agent:
+      - Github API Ruby Gem 0.13.1
+      Authorization:
+      - token <GITHUB_OUATH_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 10 Mar 2016 10:47:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4973'
+      X-Ratelimit-Reset:
+      - '1457607113'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - '"285456a8115cfc09519ccfaff6fdd046"'
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - d0b3c2c33a23690498aa8e70a435a259
+      X-Github-Request-Id:
+      - 3EFEF783:10E9C:4A1C112:56E150AF
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 10 Mar 2016 10:47:11 GMT
 - request:
     method: delete
     uri: https://api.github.com/repos/theodi/useless-gem/git/refs/tags/9.1.7?access_token=<GITHUB_OUATH_TOKEN>
@@ -334,15 +409,15 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:33 GMT
+      - Thu, 10 Mar 2016 10:47:11 GMT
       Status:
       - 204 No Content
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4742'
+      - '4972'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
@@ -367,12 +442,12 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 474556b853193c38f1b14328ce2d1b7d
+      - c6c65e5196703428e7641f7d1e9bc353
       X-Github-Request-Id:
-      - 56A82ED1:10E98:15D88D3:56E04775
+      - 3EFEF783:10E9D:640EAA3:56E150AF
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:33 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:12 GMT
 recorded_with: VCR 3.0.1

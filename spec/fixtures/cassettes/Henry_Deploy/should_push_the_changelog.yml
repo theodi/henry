@@ -27,7 +27,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:35 GMT
+      - Thu, 10 Mar 2016 10:47:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -37,9 +37,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4741'
+      - '4971'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -71,14 +71,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 07ff1c8a09e44b62e277fae50a1b1dc4
+      - 139317cebd6caf9cd03889139437f00b
       X-Github-Request-Id:
-      - 56A82ED1:10E9C:3EF1332:56E04777
+      - 3EFEF783:10E9F:92AEE81:56E150B4
     body:
       encoding: UTF-8
       string: '{"ref":"refs/tags/9.1.7","url":"https://api.github.com/repos/theodi/useless-gem/git/refs/tags/9.1.7","object":{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","type":"commit","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490"}}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:35 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:16 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/tags?access_token=<GITHUB_OUATH_TOKEN>
@@ -104,7 +104,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:35 GMT
+      - Thu, 10 Mar 2016 10:47:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -114,9 +114,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4740'
+      - '4970'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -148,14 +148,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 01d096e6cfe28f8aea352e988c332cd3
+      - a7f8a126c9ed3f1c4715a34c0ddc7290
       X-Github-Request-Id:
-      - 56A82ED1:10E9C:3EF138E:56E04777
+      - 3EFEF783:10E9A:2748F39:56E150B4
     body:
       encoding: UTF-8
       string: '[{"name":"9.1.7","zipball_url":"https://api.github.com/repos/theodi/useless-gem/zipball/9.1.7","tarball_url":"https://api.github.com/repos/theodi/useless-gem/tarball/9.1.7","commit":{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","url":"https://api.github.com/repos/theodi/useless-gem/commits/5c0f9870359e7a290ced48836ec4edde3c536490"}}]'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:35 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:17 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490?access_token=<GITHUB_OUATH_TOKEN>
@@ -181,7 +181,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:36 GMT
+      - Thu, 10 Mar 2016 10:47:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -191,9 +191,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4739'
+      - '4969'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -225,15 +225,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - d594a23ec74671eba905bf91ef329026
+      - a7f8a126c9ed3f1c4715a34c0ddc7290
       X-Github-Request-Id:
-      - 56A82ED1:10E9F:7D81048:56E04778
+      - 3EFEF783:10E9E:7EDE185:56E150B5
     body:
       encoding: UTF-8
       string: '{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490","html_url":"https://github.com/theodi/useless-gem/commit/5c0f9870359e7a290ced48836ec4edde3c536490","author":{"name":"pezholio","email":"pezholio@gmail.com","date":"2016-03-09T14:48:24Z"},"committer":{"name":"pezholio","email":"pezholio@gmail.com","date":"2016-03-09T14:48:24Z"},"tree":{"sha":"fe036e87bc91649147f7b0c29aa3ab5e0d5d2720","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/fe036e87bc91649147f7b0c29aa3ab5e0d5d2720"},"message":"Version
         TO THE EXTREME","parents":[{"sha":"a5a5143d6536f1bb56016ce93bf34855b088aed9","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/a5a5143d6536f1bb56016ce93bf34855b088aed9","html_url":"https://github.com/theodi/useless-gem/commit/a5a5143d6536f1bb56016ce93bf34855b088aed9"}]}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:36 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:17 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/issues?access_token=<GITHUB_OUATH_TOKEN>&filter=all&labels&state=closed
@@ -259,7 +259,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:36 GMT
+      - Thu, 10 Mar 2016 10:47:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -269,9 +269,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4738'
+      - '4968'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -301,20 +301,95 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 01d096e6cfe28f8aea352e988c332cd3
+      - 8a5c38021a5cd7cef7b8f49a296fee40
       X-Github-Request-Id:
-      - 56A82ED1:10EA0:6F770FD:56E04778
+      - 3EFEF783:10EA0:80FCB54:56E150B5
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:36 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:17 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/theodi/useless-gem/pulls?access_token=<GITHUB_OUATH_TOKEN>&state=closed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json,application/vnd.github.beta+json;q=0.5,application/json;q=0.1
+      Accept-Charset:
+      - utf-8
+      User-Agent:
+      - Github API Ruby Gem 0.13.1
+      Authorization:
+      - token <GITHUB_OUATH_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 10 Mar 2016 10:47:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4967'
+      X-Ratelimit-Reset:
+      - '1457607113'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - '"285456a8115cfc09519ccfaff6fdd046"'
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 8dd185e423974a7e13abbbe6e060031e
+      X-Github-Request-Id:
+      - 3EFEF783:10E9E:7EDE2A3:56E150B6
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 10 Mar 2016 10:47:18 GMT
 - request:
     method: post
     uri: https://api.github.com/repos/theodi/useless-gem/git/blobs?access_token=<GITHUB_OUATH_TOKEN>
     body:
       encoding: UTF-8
-      string: '{"content":"\n\n## [9.1.7](https://github.com/theodi/useless-gem/tree/9.1.7)
+      string: '{"content":"# Change Log\n\n## [9.1.7](https://github.com/theodi/useless-gem/tree/9.1.7)
         (2016-03-09)\n\n\n\\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*","encoding":"utf-8"}'
     headers:
       Accept:
@@ -337,7 +412,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:37 GMT
+      - Thu, 10 Mar 2016 10:47:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -347,22 +422,22 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4737'
+      - '4966'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - '"b279ab34118623f19724cbb2423c3d86"'
+      - '"e6e62ee645547ac4634076551fe26597"'
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
       - ''
       Location:
-      - https://api.github.com/repos/theodi/useless-gem/git/blobs/879ca6e384509c718ac110b257f3b919e007ebdb
+      - https://api.github.com/repos/theodi/useless-gem/git/blobs/4e4996ac15e1e1892598852f3d7f9b20fc2acae3
       X-Github-Media-Type:
       - github.v3; format=json
       Access-Control-Expose-Headers:
@@ -381,14 +456,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 318e55760cf7cdb40e61175a4d36cd32
+      - 01d096e6cfe28f8aea352e988c332cd3
       X-Github-Request-Id:
-      - 56A82ED1:10E9B:2DB3FF8:56E04779
+      - 3EFEF783:10E9E:7EDE384:56E150B6
     body:
       encoding: UTF-8
-      string: '{"sha":"879ca6e384509c718ac110b257f3b919e007ebdb","url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/879ca6e384509c718ac110b257f3b919e007ebdb"}'
+      string: '{"sha":"4e4996ac15e1e1892598852f3d7f9b20fc2acae3","url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/4e4996ac15e1e1892598852f3d7f9b20fc2acae3"}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:37 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:19 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/git/trees/master?access_token=<GITHUB_OUATH_TOKEN>
@@ -414,7 +489,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:37 GMT
+      - Thu, 10 Mar 2016 10:47:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -424,16 +499,16 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4736'
+      - '4965'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - W/"04ffa03d8a650e42beb1a7805d61adb4"
+      - W/"5173979a7eada6ba68bdbd1a1d9f1b8c"
       Last-Modified:
       - Wed, 09 Mar 2016 14:29:34 GMT
       X-Oauth-Scopes:
@@ -458,20 +533,20 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - cee4c0729c8e9147e7abcb45b9d69689
+      - 7b641bda7ec2ca7cd9df72d2578baf75
       X-Github-Request-Id:
-      - 56A82ED1:10EA0:6F771F3:56E04779
+      - 3EFEF783:10E9F:92AF2C7:56E150B7
     body:
       encoding: UTF-8
-      string: '{"sha":"c6b779a7b1e769c67c4740850acdb754d231ef0f","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/c6b779a7b1e769c67c4740850acdb754d231ef0f","tree":[{"path":".gitignore","mode":"100644","type":"blob","sha":"0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797","size":87,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797"},{"path":".rspec","mode":"100644","type":"blob","sha":"8c18f1abdd4147f400c02b45e57297449ae4bc43","size":31,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/8c18f1abdd4147f400c02b45e57297449ae4bc43"},{"path":".travis.yml","mode":"100644","type":"blob","sha":"152a34173d2afa17582f68516b928dd706e520bc","size":76,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/152a34173d2afa17582f68516b928dd706e520bc"},{"path":"CHANGELOG.md","mode":"100644","type":"blob","sha":"879ca6e384509c718ac110b257f3b919e007ebdb","size":215,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/879ca6e384509c718ac110b257f3b919e007ebdb"},{"path":"CODE_OF_CONDUCT.md","mode":"100644","type":"blob","sha":"3b2e28a86dca38da915e961dc244007516fecbe8","size":2386,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/3b2e28a86dca38da915e961dc244007516fecbe8"},{"path":"Gemfile","mode":"100644","type":"blob","sha":"0cf9b979e054bbbda3df5e529d5c1e77e4b199b1","size":96,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cf9b979e054bbbda3df5e529d5c1e77e4b199b1"},{"path":"LICENSE.txt","mode":"100644","type":"blob","sha":"f4a93c0ff4db071ac9bede8e2ee7fe047b086d42","size":1075,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/f4a93c0ff4db071ac9bede8e2ee7fe047b086d42"},{"path":"README.md","mode":"100644","type":"blob","sha":"c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483","size":1545,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483"},{"path":"Rakefile","mode":"100644","type":"blob","sha":"b7e9ed549be37412bd2f7e90f0b33165e3052ceb","size":117,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b7e9ed549be37412bd2f7e90f0b33165e3052ceb"},{"path":"bin","mode":"040000","type":"tree","sha":"8f30d16c7ac7454d2ad07fbd3762d64534f57479","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/8f30d16c7ac7454d2ad07fbd3762d64534f57479"},{"path":"lib","mode":"040000","type":"tree","sha":"6c009094ce324c2b7f6b8859e63e5e935958e015","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/6c009094ce324c2b7f6b8859e63e5e935958e015"},{"path":"spec","mode":"040000","type":"tree","sha":"1556cd05e36e32f826073d45c4f2183cdc2eb093","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/1556cd05e36e32f826073d45c4f2183cdc2eb093"},{"path":"useless-gem.gemspec","mode":"100644","type":"blob","sha":"b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb","size":1380,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb"}],"truncated":false}'
+      string: '{"sha":"f1fa029c8e262a8af002146768f9d2534fd5cab5","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/f1fa029c8e262a8af002146768f9d2534fd5cab5","tree":[{"path":".gitignore","mode":"100644","type":"blob","sha":"0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797","size":87,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797"},{"path":".rspec","mode":"100644","type":"blob","sha":"8c18f1abdd4147f400c02b45e57297449ae4bc43","size":31,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/8c18f1abdd4147f400c02b45e57297449ae4bc43"},{"path":".travis.yml","mode":"100644","type":"blob","sha":"152a34173d2afa17582f68516b928dd706e520bc","size":76,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/152a34173d2afa17582f68516b928dd706e520bc"},{"path":"CHANGELOG.md","mode":"100644","type":"blob","sha":"879ca6e384509c718ac110b257f3b919e007ebdb","size":215,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/879ca6e384509c718ac110b257f3b919e007ebdb"},{"path":"CODE_OF_CONDUCT.md","mode":"100644","type":"blob","sha":"3b2e28a86dca38da915e961dc244007516fecbe8","size":2386,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/3b2e28a86dca38da915e961dc244007516fecbe8"},{"path":"Gemfile","mode":"100644","type":"blob","sha":"0cf9b979e054bbbda3df5e529d5c1e77e4b199b1","size":96,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cf9b979e054bbbda3df5e529d5c1e77e4b199b1"},{"path":"LICENSE.txt","mode":"100644","type":"blob","sha":"f4a93c0ff4db071ac9bede8e2ee7fe047b086d42","size":1075,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/f4a93c0ff4db071ac9bede8e2ee7fe047b086d42"},{"path":"README.md","mode":"100644","type":"blob","sha":"c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483","size":1545,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483"},{"path":"Rakefile","mode":"100644","type":"blob","sha":"b7e9ed549be37412bd2f7e90f0b33165e3052ceb","size":117,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b7e9ed549be37412bd2f7e90f0b33165e3052ceb"},{"path":"bin","mode":"040000","type":"tree","sha":"8f30d16c7ac7454d2ad07fbd3762d64534f57479","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/8f30d16c7ac7454d2ad07fbd3762d64534f57479"},{"path":"lib","mode":"040000","type":"tree","sha":"6c009094ce324c2b7f6b8859e63e5e935958e015","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/6c009094ce324c2b7f6b8859e63e5e935958e015"},{"path":"spec","mode":"040000","type":"tree","sha":"1556cd05e36e32f826073d45c4f2183cdc2eb093","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/1556cd05e36e32f826073d45c4f2183cdc2eb093"},{"path":"useless-gem.gemspec","mode":"100644","type":"blob","sha":"b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb","size":1380,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb"}],"truncated":false}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:37 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:19 GMT
 - request:
     method: post
     uri: https://api.github.com/repos/theodi/useless-gem/git/trees?access_token=<GITHUB_OUATH_TOKEN>
     body:
       encoding: UTF-8
-      string: '{"base_tree":"c6b779a7b1e769c67c4740850acdb754d231ef0f","tree":[{"path":"CHANGELOG.md","mode":"100644","type":"blob","sha":"879ca6e384509c718ac110b257f3b919e007ebdb"}]}'
+      string: '{"base_tree":"f1fa029c8e262a8af002146768f9d2534fd5cab5","tree":[{"path":"CHANGELOG.md","mode":"100644","type":"blob","sha":"4e4996ac15e1e1892598852f3d7f9b20fc2acae3"}]}'
     headers:
       Accept:
       - application/vnd.github.v3+json,application/vnd.github.beta+json;q=0.5,application/json;q=0.1
@@ -493,7 +568,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:38 GMT
+      - Thu, 10 Mar 2016 10:47:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -503,22 +578,22 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4735'
+      - '4964'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - '"1ae19573e6f2d9056b7cb4d5d5803fb5"'
+      - '"188b69ec2681626b7e8668f242292e0e"'
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
       - ''
       Location:
-      - https://api.github.com/repos/theodi/useless-gem/git/trees/c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa
+      - https://api.github.com/repos/theodi/useless-gem/git/trees/2823acea8abc25067d082a749c46fc7f601f808e
       X-Github-Media-Type:
       - github.v3; format=json
       Access-Control-Expose-Headers:
@@ -537,14 +612,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - cee4c0729c8e9147e7abcb45b9d69689
+      - 474556b853193c38f1b14328ce2d1b7d
       X-Github-Request-Id:
-      - 56A82ED1:10E97:12F3BA3:56E0477A
+      - 3EFEF783:10E9E:7EDE56C:56E150B8
     body:
       encoding: UTF-8
-      string: '{"sha":"c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa","tree":[{"path":".gitignore","mode":"100644","type":"blob","sha":"0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797","size":87,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797"},{"path":".rspec","mode":"100644","type":"blob","sha":"8c18f1abdd4147f400c02b45e57297449ae4bc43","size":31,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/8c18f1abdd4147f400c02b45e57297449ae4bc43"},{"path":".travis.yml","mode":"100644","type":"blob","sha":"152a34173d2afa17582f68516b928dd706e520bc","size":76,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/152a34173d2afa17582f68516b928dd706e520bc"},{"path":"CHANGELOG.md","mode":"100644","type":"blob","sha":"879ca6e384509c718ac110b257f3b919e007ebdb","size":215,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/879ca6e384509c718ac110b257f3b919e007ebdb"},{"path":"CODE_OF_CONDUCT.md","mode":"100644","type":"blob","sha":"3b2e28a86dca38da915e961dc244007516fecbe8","size":2386,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/3b2e28a86dca38da915e961dc244007516fecbe8"},{"path":"Gemfile","mode":"100644","type":"blob","sha":"0cf9b979e054bbbda3df5e529d5c1e77e4b199b1","size":96,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cf9b979e054bbbda3df5e529d5c1e77e4b199b1"},{"path":"LICENSE.txt","mode":"100644","type":"blob","sha":"f4a93c0ff4db071ac9bede8e2ee7fe047b086d42","size":1075,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/f4a93c0ff4db071ac9bede8e2ee7fe047b086d42"},{"path":"README.md","mode":"100644","type":"blob","sha":"c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483","size":1545,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483"},{"path":"Rakefile","mode":"100644","type":"blob","sha":"b7e9ed549be37412bd2f7e90f0b33165e3052ceb","size":117,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b7e9ed549be37412bd2f7e90f0b33165e3052ceb"},{"path":"bin","mode":"040000","type":"tree","sha":"8f30d16c7ac7454d2ad07fbd3762d64534f57479","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/8f30d16c7ac7454d2ad07fbd3762d64534f57479"},{"path":"lib","mode":"040000","type":"tree","sha":"6c009094ce324c2b7f6b8859e63e5e935958e015","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/6c009094ce324c2b7f6b8859e63e5e935958e015"},{"path":"spec","mode":"040000","type":"tree","sha":"1556cd05e36e32f826073d45c4f2183cdc2eb093","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/1556cd05e36e32f826073d45c4f2183cdc2eb093"},{"path":"useless-gem.gemspec","mode":"100644","type":"blob","sha":"b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb","size":1380,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb"}],"truncated":false}'
+      string: '{"sha":"2823acea8abc25067d082a749c46fc7f601f808e","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/2823acea8abc25067d082a749c46fc7f601f808e","tree":[{"path":".gitignore","mode":"100644","type":"blob","sha":"0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797","size":87,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cb6eeb0676e0d425ed7ddc8b444bb8bbb9a9797"},{"path":".rspec","mode":"100644","type":"blob","sha":"8c18f1abdd4147f400c02b45e57297449ae4bc43","size":31,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/8c18f1abdd4147f400c02b45e57297449ae4bc43"},{"path":".travis.yml","mode":"100644","type":"blob","sha":"152a34173d2afa17582f68516b928dd706e520bc","size":76,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/152a34173d2afa17582f68516b928dd706e520bc"},{"path":"CHANGELOG.md","mode":"100644","type":"blob","sha":"4e4996ac15e1e1892598852f3d7f9b20fc2acae3","size":227,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/4e4996ac15e1e1892598852f3d7f9b20fc2acae3"},{"path":"CODE_OF_CONDUCT.md","mode":"100644","type":"blob","sha":"3b2e28a86dca38da915e961dc244007516fecbe8","size":2386,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/3b2e28a86dca38da915e961dc244007516fecbe8"},{"path":"Gemfile","mode":"100644","type":"blob","sha":"0cf9b979e054bbbda3df5e529d5c1e77e4b199b1","size":96,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/0cf9b979e054bbbda3df5e529d5c1e77e4b199b1"},{"path":"LICENSE.txt","mode":"100644","type":"blob","sha":"f4a93c0ff4db071ac9bede8e2ee7fe047b086d42","size":1075,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/f4a93c0ff4db071ac9bede8e2ee7fe047b086d42"},{"path":"README.md","mode":"100644","type":"blob","sha":"c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483","size":1545,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/c32b32ed8c0ba36e53540b7d9777ce7b7ceaa483"},{"path":"Rakefile","mode":"100644","type":"blob","sha":"b7e9ed549be37412bd2f7e90f0b33165e3052ceb","size":117,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b7e9ed549be37412bd2f7e90f0b33165e3052ceb"},{"path":"bin","mode":"040000","type":"tree","sha":"8f30d16c7ac7454d2ad07fbd3762d64534f57479","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/8f30d16c7ac7454d2ad07fbd3762d64534f57479"},{"path":"lib","mode":"040000","type":"tree","sha":"6c009094ce324c2b7f6b8859e63e5e935958e015","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/6c009094ce324c2b7f6b8859e63e5e935958e015"},{"path":"spec","mode":"040000","type":"tree","sha":"1556cd05e36e32f826073d45c4f2183cdc2eb093","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/1556cd05e36e32f826073d45c4f2183cdc2eb093"},{"path":"useless-gem.gemspec","mode":"100644","type":"blob","sha":"b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb","size":1380,"url":"https://api.github.com/repos/theodi/useless-gem/git/blobs/b333387cfd3ed0f2e8ff5b55e98a8ed221537ddb"}],"truncated":false}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:38 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:20 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/branches/master?access_token=<GITHUB_OUATH_TOKEN>
@@ -570,7 +645,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:38 GMT
+      - Thu, 10 Mar 2016 10:47:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -580,16 +655,16 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4734'
+      - '4963'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - W/"9ed7e5c006cbf18e0903c16c6abdfa7f"
+      - W/"0cbd0e0b313f52a3780f1604fa926f36"
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
@@ -612,23 +687,23 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - e183f7c661b1bbc2c987b3c4dc7b04e0
+      - b0ef53392caa42315c6206737946d931
       X-Github-Request-Id:
-      - 56A82ED1:10E9A:2169F14:56E0477A
+      - 3EFEF783:10E9F:92AF53A:56E150B9
     body:
       encoding: UTF-8
-      string: '{"name":"master","commit":{"sha":"c6b779a7b1e769c67c4740850acdb754d231ef0f","commit":{"author":{"name":"ODI
-        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-09T15:47:21Z"},"committer":{"name":"ODI
-        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-09T15:47:21Z"},"message":"Updated
-        CHANGELOG.md [ci skip]","tree":{"sha":"c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa"},"url":"https://api.github.com/repos/theodi/useless-gem/git/commits/c6b779a7b1e769c67c4740850acdb754d231ef0f","comment_count":0},"url":"https://api.github.com/repos/theodi/useless-gem/commits/c6b779a7b1e769c67c4740850acdb754d231ef0f","html_url":"https://github.com/theodi/useless-gem/commit/c6b779a7b1e769c67c4740850acdb754d231ef0f","comments_url":"https://api.github.com/repos/theodi/useless-gem/commits/c6b779a7b1e769c67c4740850acdb754d231ef0f/comments","author":{"login":"odi-robot","id":3439860,"avatar_url":"https://avatars.githubusercontent.com/u/3439860?v=3","gravatar_id":"","url":"https://api.github.com/users/odi-robot","html_url":"https://github.com/odi-robot","followers_url":"https://api.github.com/users/odi-robot/followers","following_url":"https://api.github.com/users/odi-robot/following{/other_user}","gists_url":"https://api.github.com/users/odi-robot/gists{/gist_id}","starred_url":"https://api.github.com/users/odi-robot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/odi-robot/subscriptions","organizations_url":"https://api.github.com/users/odi-robot/orgs","repos_url":"https://api.github.com/users/odi-robot/repos","events_url":"https://api.github.com/users/odi-robot/events{/privacy}","received_events_url":"https://api.github.com/users/odi-robot/received_events","type":"User","site_admin":false},"committer":{"login":"odi-robot","id":3439860,"avatar_url":"https://avatars.githubusercontent.com/u/3439860?v=3","gravatar_id":"","url":"https://api.github.com/users/odi-robot","html_url":"https://github.com/odi-robot","followers_url":"https://api.github.com/users/odi-robot/followers","following_url":"https://api.github.com/users/odi-robot/following{/other_user}","gists_url":"https://api.github.com/users/odi-robot/gists{/gist_id}","starred_url":"https://api.github.com/users/odi-robot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/odi-robot/subscriptions","organizations_url":"https://api.github.com/users/odi-robot/orgs","repos_url":"https://api.github.com/users/odi-robot/repos","events_url":"https://api.github.com/users/odi-robot/events{/privacy}","received_events_url":"https://api.github.com/users/odi-robot/received_events","type":"User","site_admin":false},"parents":[{"sha":"9714ef1e104322432d7c052cd7fb832124fcc3a9","url":"https://api.github.com/repos/theodi/useless-gem/commits/9714ef1e104322432d7c052cd7fb832124fcc3a9","html_url":"https://github.com/theodi/useless-gem/commit/9714ef1e104322432d7c052cd7fb832124fcc3a9"}]},"_links":{"self":"https://api.github.com/repos/theodi/useless-gem/branches/master","html":"https://github.com/theodi/useless-gem/tree/master"}}'
+      string: '{"name":"master","commit":{"sha":"f1fa029c8e262a8af002146768f9d2534fd5cab5","commit":{"author":{"name":"ODI
+        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-09T15:55:39Z"},"committer":{"name":"ODI
+        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-09T15:55:39Z"},"message":"Updated
+        CHANGELOG.md [ci skip]","tree":{"sha":"c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa"},"url":"https://api.github.com/repos/theodi/useless-gem/git/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5","comment_count":0},"url":"https://api.github.com/repos/theodi/useless-gem/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5","html_url":"https://github.com/theodi/useless-gem/commit/f1fa029c8e262a8af002146768f9d2534fd5cab5","comments_url":"https://api.github.com/repos/theodi/useless-gem/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5/comments","author":{"login":"odi-robot","id":3439860,"avatar_url":"https://avatars.githubusercontent.com/u/3439860?v=3","gravatar_id":"","url":"https://api.github.com/users/odi-robot","html_url":"https://github.com/odi-robot","followers_url":"https://api.github.com/users/odi-robot/followers","following_url":"https://api.github.com/users/odi-robot/following{/other_user}","gists_url":"https://api.github.com/users/odi-robot/gists{/gist_id}","starred_url":"https://api.github.com/users/odi-robot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/odi-robot/subscriptions","organizations_url":"https://api.github.com/users/odi-robot/orgs","repos_url":"https://api.github.com/users/odi-robot/repos","events_url":"https://api.github.com/users/odi-robot/events{/privacy}","received_events_url":"https://api.github.com/users/odi-robot/received_events","type":"User","site_admin":false},"committer":{"login":"odi-robot","id":3439860,"avatar_url":"https://avatars.githubusercontent.com/u/3439860?v=3","gravatar_id":"","url":"https://api.github.com/users/odi-robot","html_url":"https://github.com/odi-robot","followers_url":"https://api.github.com/users/odi-robot/followers","following_url":"https://api.github.com/users/odi-robot/following{/other_user}","gists_url":"https://api.github.com/users/odi-robot/gists{/gist_id}","starred_url":"https://api.github.com/users/odi-robot/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/odi-robot/subscriptions","organizations_url":"https://api.github.com/users/odi-robot/orgs","repos_url":"https://api.github.com/users/odi-robot/repos","events_url":"https://api.github.com/users/odi-robot/events{/privacy}","received_events_url":"https://api.github.com/users/odi-robot/received_events","type":"User","site_admin":false},"parents":[{"sha":"c6b779a7b1e769c67c4740850acdb754d231ef0f","url":"https://api.github.com/repos/theodi/useless-gem/commits/c6b779a7b1e769c67c4740850acdb754d231ef0f","html_url":"https://github.com/theodi/useless-gem/commit/c6b779a7b1e769c67c4740850acdb754d231ef0f"}]},"_links":{"self":"https://api.github.com/repos/theodi/useless-gem/branches/master","html":"https://github.com/theodi/useless-gem/tree/master"}}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:38 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:21 GMT
 - request:
     method: post
     uri: https://api.github.com/repos/theodi/useless-gem/git/commits?access_token=<GITHUB_OUATH_TOKEN>
     body:
       encoding: UTF-8
-      string: '{"message":"Updated CHANGELOG.md [ci skip]","parents":["c6b779a7b1e769c67c4740850acdb754d231ef0f"],"tree":"c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa"}'
+      string: '{"message":"Updated CHANGELOG.md [ci skip]","parents":["f1fa029c8e262a8af002146768f9d2534fd5cab5"],"tree":"2823acea8abc25067d082a749c46fc7f601f808e"}'
     headers:
       Accept:
       - application/vnd.github.v3+json,application/vnd.github.beta+json;q=0.5,application/json;q=0.1
@@ -650,7 +725,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:39 GMT
+      - Thu, 10 Mar 2016 10:47:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -660,22 +735,22 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4733'
+      - '4962'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - '"4e4d3b9aa49dcc14cf5c0108eef65ed7"'
+      - '"0a0c969b2403949474e2cd5bccd5603e"'
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
       - ''
       Location:
-      - https://api.github.com/repos/theodi/useless-gem/git/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5
+      - https://api.github.com/repos/theodi/useless-gem/git/commits/53e40d40cc3c92af1b39e4a245a0c7c59c26f985
       X-Github-Media-Type:
       - github.v3; format=json
       Access-Control-Expose-Headers:
@@ -694,23 +769,23 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - b0ef53392caa42315c6206737946d931
+      - a51acaae89a7607fd7ee967627be18e4
       X-Github-Request-Id:
-      - 56A82ED1:10E9B:2DB40EC:56E0477A
+      - 3EFEF783:10E9F:92AF644:56E150B9
     body:
       encoding: UTF-8
-      string: '{"sha":"f1fa029c8e262a8af002146768f9d2534fd5cab5","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5","html_url":"https://github.com/theodi/useless-gem/commit/f1fa029c8e262a8af002146768f9d2534fd5cab5","author":{"name":"ODI
-        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-09T15:55:39Z"},"committer":{"name":"ODI
-        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-09T15:55:39Z"},"tree":{"sha":"c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/c5925ec4fcfb79d1197f0c5ab7fe45ecc1f978aa"},"message":"Updated
-        CHANGELOG.md [ci skip]","parents":[{"sha":"c6b779a7b1e769c67c4740850acdb754d231ef0f","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/c6b779a7b1e769c67c4740850acdb754d231ef0f","html_url":"https://github.com/theodi/useless-gem/commit/c6b779a7b1e769c67c4740850acdb754d231ef0f"}]}'
+      string: '{"sha":"53e40d40cc3c92af1b39e4a245a0c7c59c26f985","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/53e40d40cc3c92af1b39e4a245a0c7c59c26f985","html_url":"https://github.com/theodi/useless-gem/commit/53e40d40cc3c92af1b39e4a245a0c7c59c26f985","author":{"name":"ODI
+        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-10T10:47:22Z"},"committer":{"name":"ODI
+        Robot","email":"odi-robot@users.noreply.github.com","date":"2016-03-10T10:47:22Z"},"tree":{"sha":"2823acea8abc25067d082a749c46fc7f601f808e","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/2823acea8abc25067d082a749c46fc7f601f808e"},"message":"Updated
+        CHANGELOG.md [ci skip]","parents":[{"sha":"f1fa029c8e262a8af002146768f9d2534fd5cab5","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5","html_url":"https://github.com/theodi/useless-gem/commit/f1fa029c8e262a8af002146768f9d2534fd5cab5"}]}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:39 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:22 GMT
 - request:
     method: patch
     uri: https://api.github.com/repos/theodi/useless-gem/git/refs/heads/master?access_token=<GITHUB_OUATH_TOKEN>
     body:
       encoding: UTF-8
-      string: '{"sha":"f1fa029c8e262a8af002146768f9d2534fd5cab5"}'
+      string: '{"sha":"53e40d40cc3c92af1b39e4a245a0c7c59c26f985"}'
     headers:
       Accept:
       - application/vnd.github.v3+json,application/vnd.github.beta+json;q=0.5,application/json;q=0.1
@@ -732,7 +807,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:39 GMT
+      - Thu, 10 Mar 2016 10:47:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -742,16 +817,16 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4732'
+      - '4961'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
       - Accept-Encoding
       Etag:
-      - W/"272f3bae549feb658654d4f385cbe308"
+      - W/"228891a5761cfa907dca0bd69e18b698"
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
@@ -774,14 +849,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 7f48e2f7761567e923121f17538d7a6d
+      - 76d9828c7e4f1d910f7ba069e90ce976
       X-Github-Request-Id:
-      - 56A82ED1:10EA0:6F7741B:56E0477B
+      - 3EFEF783:10E9F:92AF79C:56E150BA
     body:
       encoding: UTF-8
-      string: '{"ref":"refs/heads/master","url":"https://api.github.com/repos/theodi/useless-gem/git/refs/heads/master","object":{"sha":"f1fa029c8e262a8af002146768f9d2534fd5cab5","type":"commit","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/f1fa029c8e262a8af002146768f9d2534fd5cab5"}}'
+      string: '{"ref":"refs/heads/master","url":"https://api.github.com/repos/theodi/useless-gem/git/refs/heads/master","object":{"sha":"53e40d40cc3c92af1b39e4a245a0c7c59c26f985","type":"commit","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/53e40d40cc3c92af1b39e4a245a0c7c59c26f985"}}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:39 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:22 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/theodi/useless-gem/master/CHANGELOG.md
@@ -811,25 +886,25 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000
       Etag:
-      - '"879ca6e384509c718ac110b257f3b919e007ebdb"'
+      - '"4e4996ac15e1e1892598852f3d7f9b20fc2acae3"'
       Content-Type:
       - text/plain; charset=utf-8
       Cache-Control:
       - max-age=300
       X-Github-Request-Id:
-      - B91F121B:5487:ADEDB43:56E0477C
+      - 17EB2B22:7D41:699388:56E150BA
       Content-Length:
-      - '174'
+      - '178'
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 09 Mar 2016 15:55:40 GMT
+      - Thu, 10 Mar 2016 10:47:23 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-lcy1132-LCY
+      - cache-ams4148-AMS
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -839,22 +914,22 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Fastly-Request-Id:
-      - 50308a3a04adcd66dca11cd33cb20738d4598c02
+      - db02a142fbdfe30270843b87046d8efaeaba259f
       Expires:
-      - Wed, 09 Mar 2016 16:00:40 GMT
+      - Thu, 10 Mar 2016 10:52:23 GMT
       Source-Age:
       - '0'
     body:
       encoding: UTF-8
-      string: |2-
-
+      string: |-
+        # Change Log
 
         ## [9.1.7](https://github.com/theodi/useless-gem/tree/9.1.7) (2016-03-09)
 
 
         \* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:40 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:23 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/tags?access_token=<GITHUB_OUATH_TOKEN>
@@ -880,7 +955,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:41 GMT
+      - Thu, 10 Mar 2016 10:47:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -890,9 +965,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4731'
+      - '4960'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -924,14 +999,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - ef96c2e493b28ffea49b891b085ed2dd
+      - b0ef53392caa42315c6206737946d931
       X-Github-Request-Id:
-      - 56A82ED1:10EA0:6F775B1:56E0477D
+      - 3EFEF783:10EA0:80FD180:56E150BB
     body:
       encoding: UTF-8
       string: '[{"name":"9.1.7","zipball_url":"https://api.github.com/repos/theodi/useless-gem/zipball/9.1.7","tarball_url":"https://api.github.com/repos/theodi/useless-gem/tarball/9.1.7","commit":{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","url":"https://api.github.com/repos/theodi/useless-gem/commits/5c0f9870359e7a290ced48836ec4edde3c536490"}}]'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:41 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:23 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490?access_token=<GITHUB_OUATH_TOKEN>
@@ -957,7 +1032,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:41 GMT
+      - Thu, 10 Mar 2016 10:47:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -967,9 +1042,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4730'
+      - '4959'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -1001,15 +1076,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - a6882e5cd2513376cb9481dbcd83f3a2
+      - e724c57ebb9961c772a91e2dd7421c8d
       X-Github-Request-Id:
-      - 56A82ED1:10E97:12F3C68:56E0477D
+      - 3EFEF783:10EA0:80FD1FE:56E150BB
     body:
       encoding: UTF-8
       string: '{"sha":"5c0f9870359e7a290ced48836ec4edde3c536490","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/5c0f9870359e7a290ced48836ec4edde3c536490","html_url":"https://github.com/theodi/useless-gem/commit/5c0f9870359e7a290ced48836ec4edde3c536490","author":{"name":"pezholio","email":"pezholio@gmail.com","date":"2016-03-09T14:48:24Z"},"committer":{"name":"pezholio","email":"pezholio@gmail.com","date":"2016-03-09T14:48:24Z"},"tree":{"sha":"fe036e87bc91649147f7b0c29aa3ab5e0d5d2720","url":"https://api.github.com/repos/theodi/useless-gem/git/trees/fe036e87bc91649147f7b0c29aa3ab5e0d5d2720"},"message":"Version
         TO THE EXTREME","parents":[{"sha":"a5a5143d6536f1bb56016ce93bf34855b088aed9","url":"https://api.github.com/repos/theodi/useless-gem/git/commits/a5a5143d6536f1bb56016ce93bf34855b088aed9","html_url":"https://github.com/theodi/useless-gem/commit/a5a5143d6536f1bb56016ce93bf34855b088aed9"}]}'
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:41 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:23 GMT
 - request:
     method: get
     uri: https://api.github.com/repos/theodi/useless-gem/issues?access_token=<GITHUB_OUATH_TOKEN>&filter=all&labels&state=closed
@@ -1035,7 +1110,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:42 GMT
+      - Thu, 10 Mar 2016 10:47:24 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -1045,9 +1120,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4729'
+      - '4958'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -1077,14 +1152,89 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 4c8b2d4732c413f4b9aefe394bd65569
+      - ef96c2e493b28ffea49b891b085ed2dd
       X-Github-Request-Id:
-      - 56A82ED1:10E9F:7D81826:56E0477D
+      - 3EFEF783:10E9B:35BF852:56E150BC
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:42 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:24 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/theodi/useless-gem/pulls?access_token=<GITHUB_OUATH_TOKEN>&state=closed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json,application/vnd.github.beta+json;q=0.5,application/json;q=0.1
+      Accept-Charset:
+      - utf-8
+      User-Agent:
+      - Github API Ruby Gem 0.13.1
+      Authorization:
+      - token <GITHUB_OUATH_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 10 Mar 2016 10:47:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4957'
+      X-Ratelimit-Reset:
+      - '1457607113'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - '"285456a8115cfc09519ccfaff6fdd046"'
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a51acaae89a7607fd7ee967627be18e4
+      X-Github-Request-Id:
+      - 3EFEF783:10E9E:7EDEAC4:56E150BC
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 10 Mar 2016 10:47:24 GMT
 - request:
     method: delete
     uri: https://api.github.com/repos/theodi/useless-gem/git/refs/tags/9.1.7?access_token=<GITHUB_OUATH_TOKEN>
@@ -1110,15 +1260,15 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 09 Mar 2016 15:55:42 GMT
+      - Thu, 10 Mar 2016 10:47:25 GMT
       Status:
       - 204 No Content
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4728'
+      - '4956'
       X-Ratelimit-Reset:
-      - '1457539333'
+      - '1457607113'
       X-Oauth-Scopes:
       - repo
       X-Accepted-Oauth-Scopes:
@@ -1143,12 +1293,12 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 13d09b732ebe76f892093130dc088652
+      - a7f8a126c9ed3f1c4715a34c0ddc7290
       X-Github-Request-Id:
-      - 56A82ED1:10E9E:6C4E726:56E0477E
+      - 3EFEF783:10E9C:4A1CD23:56E150BC
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Wed, 09 Mar 2016 15:55:42 GMT
+  recorded_at: Thu, 10 Mar 2016 10:47:25 GMT
 recorded_with: VCR 3.0.1
