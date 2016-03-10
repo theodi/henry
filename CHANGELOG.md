@@ -1,5 +1,6 @@
 
 
+## [0.1.2](https://github.com/theodi/henry/tree/0.1.2) (2016-03-10)
 ## [0.1.1](https://github.com/theodi/henry/tree/0.1.1) (2016-03-09)
 ## [0.1.1-beta](https://github.com/theodi/henry/tree/0.1.1-beta) (2016-03-09)
 
