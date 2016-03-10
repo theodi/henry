@@ -31,12 +31,54 @@ module Henry
     end
 
     def changelog_content
-      generator = GitHubChangelogGenerator::Generator.new(user: @user, project: @repo, token: ENV['GITHUB_OUATH_TOKEN'], base: @path, date_format: '%Y-%m-%d')
+      generator = GitHubChangelogGenerator::Generator.new(changelog_options)
       generator.compound_changelog
     end
 
     def generate_changelog
       File.open(File.join(@path, 'CHANGELOG.md'), "w") { |file| file.write(changelog_content) }
+    end
+
+    def changelog_options
+      {
+       :tag1=>nil,
+       :tag2=>nil,
+       :date_format=>"%Y-%m-%d",
+       :output=>"CHANGELOG.md",
+       :base=>@path,
+       :issues=>true,
+       :add_issues_wo_labels=>true,
+       :add_pr_wo_labels=>true,
+       :pulls=>true,
+       :filter_issues_by_milestone=>true,
+       :author=>true,
+       :unreleased=>true,
+       :unreleased_label=>"Unreleased",
+       :compare_link=>true,
+       :enhancement_labels=>["enhancement", "Enhancement"],
+       :bug_labels=>["bug", "Bug"],
+       :exclude_labels=>
+        ["duplicate",
+         "question",
+         "invalid",
+         "wontfix",
+         "Duplicate",
+         "Question",
+         "Invalid",
+         "Wontfix"],
+       :max_issues=>nil,
+       :simple_list=>false,
+       :verbose=>true,
+       :header=>"# Change Log",
+       :merge_prefix=>"**Merged pull requests:**",
+       :issue_prefix=>"**Closed issues:**",
+       :bug_prefix=>"**Fixed bugs:**",
+       :enhancement_prefix=>"**Implemented enhancements:**",
+       :git_remote=>"origin",
+       :user=>@user,
+       :project=>@repo,
+       :token=>ENV['GITHUB_OUATH_TOKEN']
+      }
     end
 
     def push_changelog
