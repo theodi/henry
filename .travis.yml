@@ -16,4 +16,4 @@ deploy:
     repo: theodi/henry
 after_success:
 - gem install henry
-- henry deploy
+- bundle exec henry deploy
