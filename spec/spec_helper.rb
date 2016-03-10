@@ -5,6 +5,7 @@ require 'git'
 require 'dotenv'
 require 'open-uri'
 require 'helpers/vcr'
+require 'tempfile'
 
 Dotenv.load
 
