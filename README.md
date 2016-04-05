@@ -8,6 +8,10 @@
 
 # Henry
 
+![Henry](henry.jpg)
+
+(Photo by [davidwithacamera](https://www.flickr.com/photos/davidwithacamera/8735762528/in/photolist-eiX4Rj-acUjmF-4bovG5-iY8b5-8rFzHk-8zvhCt-7x3Arr-7x3At8-pwa9MS-gXVmsT-77P3vT-6wmd3u-4yFEiP-de88Zq-9n77JU-9ibgqA-77SWZW-iuDhWd-7hXjpC-Q4L3W-siaKXc-iMUCq-iMUCo-iMpV9-nfdQHV-iMpV7-bv7gRn-iMUCn-4XKeGw-bv7gPa-iMpVa-nuENLQ-ppP12m-iMpV6-76ZeS9-6XkzcH-sfVoQN-71dYXN-8RqpdM-8Rqpgp-fAts7o-b6fFHc-aFjc81-6FECmy-6Xpzku-bd84hV-d3RA1-6BQfCG-7pUwj9-amBpQP))
+
 We all like continuous deployment, but when it comes to publishing Ruby gems, crafting a new version can become
 a royal pain. Travis's Rubygems integration makes things easier, but you still have to push a new tag and write a
 changelog, and who has time for that?
